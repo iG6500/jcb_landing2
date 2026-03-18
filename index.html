@@ -29,7 +29,6 @@
     overflow-x: hidden;
   }
 
-
   .hero-logo {
     position: absolute; top: 80px; left: 48px; z-index: 10;
     width: 100px;
@@ -442,20 +441,20 @@
     display: block; font-size: 0.8rem; font-weight: 600;
     letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted);
     margin-bottom: 7px;
-  }
-  input[type=text], input[type=tel], select, textarea {
-    width: 100%;
-    padding: 12px 14px;
-    background: var(--warm-white);
-    border: 1.5px solid var(--sand-mid);
-    border-radius: 5px;
-    font-family: 'Barlow', sans-serif; font-size: 0.95rem; color: var(--black);
-    transition: border-color 0.2s, box-shadow 0.2s;
-    outline: none; appearance: none;
-  }
-  input:focus, select:focus, textarea:focus {
-    border-color: var(--yellow-deep);
-    box-shadow: 0 0 0 3px rgba(255,216,0,0.15);
+    }
+    input[type=text], input[type=tel], input[type=email], select, textarea {
+      width: 100%;
+      padding: 12px 14px;
+      background: var(--warm-white);
+      border: 1.5px solid var(--sand-mid);
+      border-radius: 5px;
+      font-family: 'Barlow', sans-serif; font-size: 0.95rem; color: var(--black);
+      transition: border-color 0.2s, box-shadow 0.2s;
+      outline: none; appearance: none;
+    }
+    input:focus, select:focus, textarea:focus {
+      border-color: var(--yellow-deep);
+      box-shadow: 0 0 0 3px rgba(255,216,0,0.15);
   }
   .checkbox-group { display: flex; flex-direction: column; gap: 8px; margin-top: 4px; }
   .checkbox-label {
