@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>JCB Teleszkópos Rakodó demo körút 2026</title>
+<title>JCB Teleszkópos Rakodó Demo</title>
+<link rel="icon" type="image/png" href="cs_logo.png">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -342,7 +343,7 @@
 <body>
 
 <nav>
-  <div class="nav-logo">JCB Teleszkópos Rakodó<span> ●</span> demo körút 2026</div>
+  <div class="nav-logo">JCB<span> ●</span> Teleszkópos Rakodó</div>
   <a href="#demo-form" class="nav-cta">Demo időpont →</a>
 </nav>
 
@@ -353,12 +354,12 @@
   <div class="hero-yellow-stripe"></div>
   <div class="hero-content">
     <div class="hero-text">
-      <div class="hero-eyebrow">JCB demo körút 2026 </div>
+      <div class="hero-eyebrow">JCB Demo Körút 2026 — Tavasz–Ősz</div>
       <h1>'Piros' rakodó<br>áll az<br><em>udvarodon?</em></h1>
       <p class="hero-sub">Próbáld ki a világ piacvezető teleszkópos rakodóit! Erősebbek, gyorsabbak — és meglévő adaptereid nagy része azonnal kompatibilis.</p>
       <a href="#demo-form" class="hero-cta">
         <svg width="18" height="18" fill="none" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        Jelentkezem a demora
+        Jelentkezem a demóra
       </a>
     </div>
   </div>
@@ -371,6 +372,8 @@
   <div class="intro-stat"><div class="intro-stat-num">7 m</div><div class="intro-stat-label">Emelési magasság</div></div>
   <div class="intro-divider"></div>
   <div class="intro-stat"><div class="intro-stat-num">2 gép</div><div class="intro-stat-label">Kipróbálható modell</div></div>
+  <div class="intro-divider"></div>
+  <div class="intro-stat"><div class="intro-stat-num">6 hónap</div><div class="intro-stat-label">Demo körút időszak</div></div>
 </div>
 
 <!-- PROBLEM -->
@@ -513,10 +516,16 @@
     <!-- Mailchimp form -->
     <div id="mc_embed_shell">
       <div id="mc_embed_signup">
-        <form action="https://xtratech.us18.list-manage.com/subscribe/post?u=859ff0560bf14ca6c051f7f8e&amp;id=4774a6baa8&amp;f_id=0071abe6f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+        <form action="https://xtratech.us18.list-manage.com/subscribe/post?u=859ff0560bf14ca6c051f7f8e&amp;id=4774a6baa8&amp;f_id=0072abe6f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
           <div id="mc_embed_signup_scroll">
 
-            <!-- 1. sor: Vezetéknév + Keresztnév -->
+            <!-- 1. sor: Email -->
+            <div class="mc-field-group">
+              <label for="mce-EMAIL">Email cím <span class="asterisk">*</span></label>
+              <input type="email" name="EMAIL" id="mce-EMAIL" placeholder="pelda@ceg.hu" required>
+            </div>
+
+            <!-- 2. sor: Vezetéknév + Keresztnév -->
             <div class="mc-form-row">
               <div class="mc-field-group">
                 <label for="mce-LNAME">Vezetéknév <span class="asterisk">*</span></label>
@@ -528,43 +537,37 @@
               </div>
             </div>
 
-            <!-- 2. sor: Cég -->
-            <div class="mc-field-group">
-              <label for="mce-MMERGE7">Cégnév <span class="asterisk">*</span></label>
-              <input type="text" name="MMERGE7" id="mce-MMERGE7" placeholder="Kovács Kft." required>
-            </div>
-
-            <!-- 3. sor: Email + Telefon -->
+            <!-- 3. sor: Telefon + Irányítószám -->
             <div class="mc-form-row">
-              <div class="mc-field-group">
-                <label for="mce-EMAIL">Email cím <span class="asterisk">*</span></label>
-                <input type="email" name="EMAIL" id="mce-EMAIL" placeholder="pelda@ceg.hu" required>
-              </div>
               <div class="mc-field-group">
                 <label for="mce-PHONE">Telefonszám <span class="asterisk">*</span></label>
                 <input type="text" name="PHONE" id="mce-PHONE" placeholder="+36 30 123 4567" required>
               </div>
-            </div>
-
-            <!-- 4. sor: Irányítószám + Település -->
-            <div class="mc-form-row">
               <div class="mc-field-group">
                 <label for="mce-MMERGE6">Irányítószám <span class="asterisk">*</span></label>
                 <input type="text" name="MMERGE6" id="mce-MMERGE6" placeholder="4400" required>
               </div>
+            </div>
+
+            <!-- 4. sor: Település + Cég -->
+            <div class="mc-form-row">
               <div class="mc-field-group">
                 <label for="mce-MMERGE8">Település <span class="asterisk">*</span></label>
                 <input type="text" name="MMERGE8" id="mce-MMERGE8" placeholder="Nyíregyháza" required>
               </div>
+              <div class="mc-field-group">
+                <label for="mce-MMERGE7">Cégnév</label>
+                <input type="text" name="MMERGE7" id="mce-MMERGE7" placeholder="Kovács Kft.">
+              </div>
             </div>
 
-            <!-- 5. sor: Termék dropdown -->
+            <!-- 5. sor: Termék dropdown (MMERGE14) -->
             <div class="mc-field-group">
-              <label for="mce-MMERGE17">Melyik gép érdekel?</label>
-              <select name="MMERGE17" id="mce-MMERGE17">
+              <label for="mce-MMERGE14">Melyik gép érdekel?</label>
+              <select name="MMERGE14" id="mce-MMERGE14">
                 <option value="">Válassz...</option>
-                <option value="FASTRAC 4000">JCB 542-70 AGRI XTRA</option>
-                <option value="FASTRAC 6000">JCB TM320S</option>
+                <option value="JCB 542-70 AGRI XTRA">JCB 542-70 AGRI XTRA</option>
+                <option value="JCB TM320S">JCB TM320S</option>
               </select>
             </div>
 
@@ -591,18 +594,23 @@
               </div>
             </div>
 
-            <!-- GDPR radio -->
+            <!-- GDPR radio (kötelező) -->
             <div class="mc-field-group input-group">
               <strong>GDPR elfogadása <span class="asterisk">*</span></strong>
               <ul>
                 <li>
-                  <input type="radio" name="MMERGE11" id="mce-MMERGE110" value="Igen" required>
+                  <input type="radio" name="MMERGE11" id="mce-MMERGE110" value="Igen">
                   <label for="mce-MMERGE110">
                     Elfogadom az
-                    <a href="https://xtratech.hu/adatvedelmi-tajekoztato" target="_blank" class="gdpr-link">adatvédelmi nyilatkozatot</a>
+                    <a href="https://gepkerchemicalseed.hu/adatvedelem" target="_blank" class="gdpr-link">adatvédelmi nyilatkozatot</a>
                   </label>
                 </li>
               </ul>
+            </div>
+
+            <!-- Rejtett tag -->
+            <div hidden>
+              <input type="hidden" name="tags" value="3055447">
             </div>
 
             <!-- Mailchimp bot protection -->
@@ -630,33 +638,37 @@
 </section>
 
 <footer>
-  <div class="footer-logo">JCB<span> ●</span> Teleszkópos Rakodó demo körút 2026</div>
+  <div class="footer-logo">JCB<span> ●</span> Teleszkópos Rakodó Demo 2026</div>
   <p>© 2026 CHEMICAL-SEED — Minden jog fenntartva</p>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
 <script type="text/javascript">
-(function($) {
-  window.fnames = new Array(); window.ftypes = new Array();
-  fnames[2]='LNAME';ftypes[2]='text';
-  fnames[1]='FNAME';ftypes[1]='text';
-  fnames[7]='MMERGE7';ftypes[7]='text';
-  fnames[0]='EMAIL';ftypes[0]='email';
-  fnames[4]='PHONE';ftypes[4]='phone';
-  fnames[6]='MMERGE6';ftypes[6]='text';
-  fnames[8]='MMERGE8';ftypes[8]='text';
-  fnames[17]='MMERGE17';ftypes[17]='dropdown';
-  fnames[15]='MMERGE15';ftypes[15]='dropdown';
-  fnames[13]='MMERGE13';ftypes[13]='text';
-  fnames[16]='MMERGE16';ftypes[16]='text';
-  fnames[11]='MMERGE11';ftypes[11]='radio';
-  $.extend($.validator.messages, {
-    required: "Kötelező megadni.",
-    email: "Érvényes e-mail címnek kell lennie."
-  });
-}(jQuery));
-var $mcj = jQuery.noConflict(true);
+try {
+  (function($) {
+    window.fnames = new Array(); window.ftypes = new Array();
+    fnames[0]='EMAIL';ftypes[0]='email';
+    fnames[2]='LNAME';ftypes[2]='text';
+    fnames[1]='FNAME';ftypes[1]='text';
+    fnames[8]='MMERGE8';ftypes[8]='text';
+    fnames[4]='PHONE';ftypes[4]='phone';
+    fnames[6]='MMERGE6';ftypes[6]='text';
+    fnames[7]='MMERGE7';ftypes[7]='text';
+    fnames[14]='MMERGE14';ftypes[14]='dropdown';
+    fnames[15]='MMERGE15';ftypes[15]='dropdown';
+    fnames[13]='MMERGE13';ftypes[13]='text';
+    fnames[16]='MMERGE16';ftypes[16]='text';
+    fnames[11]='MMERGE11';ftypes[11]='radio';
+    if ($ && $.validator && $.validator.messages) {
+      $.extend($.validator.messages, {
+        required: "Kötelező megadni.",
+        email: "Érvényes e-mail címnek kell lennie."
+      });
+    }
+  }(jQuery));
+  var $mcj = jQuery.noConflict(true);
+} catch(e) { console.warn('Mailchimp init:', e); }
 </script>
 
 <script>
